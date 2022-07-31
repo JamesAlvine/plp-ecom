@@ -125,10 +125,14 @@ nav .logo h2{
     background-color: green;
 }
 .footer{
-    background-color: rgb(117, 104, 104);
+    background-color:black;
+    text-align: center;
+    display: block;
+    color: white;
 }
 .ft-1{
-    background-color:black;
     color: white;
-    text-align: center;
+    text-align: left;
+    font-size: small;
+
 }
