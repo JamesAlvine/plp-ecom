@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 5rem;
+    padding-bottom: 0.5rem;
+    background-color:darkblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+nav .logo h2{
+    color: orange;
+    font-size: 2rem;
+}
+.navLinks {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks > input {
+    border: 1px solid #e0e2e6;
+    padding: 6px;
+    border-radius: 4px;
+    height: 2.4rem;
+    background-color: whitesmoke;
+}
+
+.navLinks > input:focus{
+    border: none;
+}
+
+.navLinks > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.login button{
+    border: none;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: orange;
+    color: #0c2344;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.login button:hover{
+    background-color: green;
+}
+
+/* container style */
+
+.container{
+    margin-top: 3rem !important;
+    width: 85%;
+    margin: auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    color: #0c2344;
+    font-size: 1.4rem;
+
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0c2344;
+    margin-bottom: 10px;
+
+}
+
+.shop-item-image{
+    height: 200px;
+    width: 15em;
+}
+
+.shop-item-details{
+    display: flex;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: #0c2344;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: .5em;
+    border: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: green;
+}
+.footer{
+    background-color: rgb(117, 104, 104);
+}
+.ft-1{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
